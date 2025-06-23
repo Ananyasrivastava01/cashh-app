@@ -1,39 +1,71 @@
 💸 CashManager – Digital Wallet Application
-CashManager is a secure, full-stack digital wallet application that enables users to register, manage their accounts, and perform real-time money transfers. Designed using modern web technologies and security-first architecture, this project demonstrates robust authentication, API validation, and testing workflows.
+CashManager is a secure, full-stack digital wallet application that enables users to register, manage their accounts, and perform real-time money transfers. Built with modern web technologies and a security-first architecture, this project demonstrates:
+
+Robust authentication
+
+API validation
+
+Thorough testing workflows
 
 🚀 Features
 👤 User Management
 Secure JWT-based registration and login
+
 Profile management with user info update
-Zod schema validation for email & inputs
+
+Input validation using Zod schema
+
 Password hashing with bcrypt + salting
+
 💼 Account Management
-Auto-provisioned digital wallet per user
+Auto-provisioned wallet for each user
+
 Real-time balance inquiry
+
 Randomized initial balance (₹1 – ₹10,000)
+
 💸 Money Transfers
-Peer-to-peer money transfers with auth
-ACID-compliant transactions
+Peer-to-peer transfers with authorization
+
+ACID-compliant transaction processing
+
 Balance checks and error handling
-Invalid/insufficient transaction protection
+
+Protection from invalid/insufficient transactions
+
 🔐 Security Highlights
-JWT authentication & authorization
-Bcrypt for encrypted password storage
-Zod input schema enforcement
-Rate limiting for sensitive endpoints
-CORS protection and HTTP headers via Helmet
+JWT authentication and authorization
+
+Encrypted password storage using bcrypt
+
+Input schema enforcement with Zod
+
+Rate limiting on sensitive endpoints
+
+CORS protection and secure HTTP headers via Helmet
+
 🧪 Testing & CI/CD
-Jest unit tests for middleware & logic
-Mocked JWT and in-memory MongoDB
+Jest unit tests for middleware and logic
+
+Mocked JWT and in-memory MongoDB for testing
+
 GitHub Actions for CI/CD automation
-Test coverage enforcement (80%+ target)
+
+Test coverage enforcement (target: 80%+)
+
 🛠️ Tech Stack
 🔹 Backend
 Node.js, Express.js
-MongoDB + Mongoose
-JWT, Bcrypt, Zod, Helmet, CORS, Express-Rate-Limit
-Jest for testing
+
+MongoDB with Mongoose
+
+Libraries: JWT, Bcrypt, Zod, Helmet, CORS, Express-Rate-Limit
+
+Testing: Jest
+
 🔹 Frontend
-React.js + Vite
+React.js with Vite
+
 React Router, Context API
+
 Tailwind CSS, Axios, ESLint
